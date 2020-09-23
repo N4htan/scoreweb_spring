@@ -2,6 +2,7 @@
 
 ## ENTREGAS
 |  DATA  | SPRINT | Link do vídeo|
+|--------|--------|--------------|
 |  27-09 |   0    |              |
 |  18-10 |   1    |              |
 |  08-11 |   2    |              |
@@ -12,12 +13,12 @@
 
 ## Projeto Integrador realizado pelos alunos do 3º (terceiro) semestre de Banco de Dados da FATEC/SJC no ano de 2020.
 
-O projeto integrador consiste na criação de uma aplicação web com dashbord e com análise estatística. 
+O projeto integrador consiste na criação de uma aplicação web com dashboard e análise estatística. 
 
 
 ## Problema
 
-O cliente busca otimizar seu negócio através de uma dashbord estatistica, com as informações mais atrativas e impactantes para seus clientes. Como muitos dados são gerados a todo momento, o cliente pode acompanhar em tempo real seus respectivos dados de maneira segura e organizada, e caso necessário, e tomar a decisões a partir delas.
+O cliente busca otimizar seu negócio através de uma dashbord estatistica, com as informações mais atrativas e impactantes para seus clientes. Como muitos dados são gerados a todo momento, o cliente pode acompanhar seus respectivos dados de maneira segura e organizada, e caso necessário, e tomar a decisões a partir delas.
 
 
 ## Requerimentos (Tecnologias e bibliotecas utilizadas)
@@ -32,6 +33,7 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 ##### Requisitos Funcionais
 
 | Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
+|-------------------------------------|------|------------------------------------------------------|------------|-------|
 |Cadastro de usuários - pessoa física |RF01  | Registro de novos usuários (Pessoa juridica e física)| 01         | 18/10 |
 | Tratamento de dados                 |RF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
 
