@@ -1,12 +1,12 @@
 # KIND OF - PI
 
 ## ENTREGAS
-|  DATA  | SPRINT | Link do vídeo  ------------------------------------------|
-|  27-09 |   0    |----------------------------------------------------------|
-|  18-10 |   1    |----------------------------------------------------------|
-|  08-11 |   2    |----------------------------------------------------------|
-|  29-11 |   3    |----------------------------------------------------------|
-|  30-11 |   -    |Semana de apresentação para o cliente---------------------|
+|  DATA  | SPRINT | Link do vídeo|
+|  27-09 |   0    |              |
+|  18-10 |   1    |              |
+|  08-11 |   2    |              |
+|  29-11 |   3    |              |
+|  30-11 |   -    |Semana de apresentação para o cliente|
 
 
 
@@ -31,8 +31,9 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 
 ##### Requisitos Funcionais
 
-| Requisitos funcionais             |  Código |Descrição                                                   |
-
+| Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
+|Cadastro de usuários - pessoa física |RF01  | Registro de novos usuários (Pessoa juridica e física)| 01         | 18/10 |
+| Tratamento de dados                 |RF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
 
 
 ##### Requisitos não funcionais
