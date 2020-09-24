@@ -1,4 +1,16 @@
 # KIND OF - PI
+<!--ts-->
+   * [Entregas](#ENTREGAS)
+   * [Problema](#problema)
+   * [Requerimentos](#requerimentos)
+   * [Requisitos](#levantamento-de-requisitos)
+      * [Funcionais](#requisitos-funcionais)
+      * [Não Funcionais](#requisitos-nao-funcionais)
+   * [Instalação](#testes)
+   * [Tecnologias](#tecnologias)
+<!--te-->
+
+
 
 ## ENTREGAS
 |  DATA  | SPRINT | Link do vídeo|
@@ -34,15 +46,21 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 
 | Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
 |-------------------------------------|------|------------------------------------------------------|------------|-------|
-|Cadastro de usuários - pessoa física |RF01  | Registro de novos usuários (Pessoa juridica e física)| 01         | 18/10 |
-| Tratamento de dados                 |RF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
+|Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 01         | 18/10 |
+|Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
+|Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 02         | 08/11 |
+|Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 02         | 08/11 |
+|Acesso ao score                      |RF05  |Acesso dos usuários o score gerado                    | 03         |29/11  |
+|Histórico de movimentação            |RF06  |Detalahmento da movimentação realizado pelo usuário   | 03         |29/11  |
+
 
 
 ##### Requisitos não funcionais
 
-
-| Requisitos não funcionais| Código | Descrição                                                            |
-| 
+| Requisitos não funcionais           |Código|Descrição                                              | Prioridade | Sprint|
+|-------------------------------------|-------|------------------------------------------------------|------------|-------|
+|Documentação do produto              |RNF01  | Documentação do código/Utilização das informações    | 01         | 18/10 |
+| Tratamento de dados                 |RNF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
 
 
 ## Instalação do projeto/ Funcionalidade
@@ -56,13 +74,24 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 ## Contribuintes
 
 - Fernanda Ramos
-gitlab: https://gitlab.com/ferpsalles
-Linkedin: https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/
+- gitlab: https://gitlab.com/ferpsalles
+- Linkedin: https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/
 
+- Gabriel Angelo
+- gitlab:
+- Linkedin:
+
+- Nathan Nascimento
+- gitlab:
+- Linkedin:
+
+- Igor Pereira
+- gitlab:
+- Linkedin:
 
 - Vitor Daniel Silva
-gitlab: https://gitlab.com/VitorDan
-Linkedin: https://www.linkedin.com/in/vitor-daniel-9343bb150/
+-gitlab: https://gitlab.com/VitorDan
+-Linkedin: https://www.linkedin.com/in/vitor-daniel-9343bb150/
 
 
 ## Agradecimentos
