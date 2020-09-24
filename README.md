@@ -6,8 +6,9 @@
    * [Requisitos](#levantamento-de-requisitos)
       * [Funcionais](#requisitos-funcionais)
       * [Não Funcionais](#requisitos-nao-funcionais)
-   * [Instalação](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Instalação](#instalacao-do-projeto)
+   * [Referências](#referencias)
+   * [Contribuintes](#contribuintes)
 <!--te-->
 
 
@@ -51,7 +52,7 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 |Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 02         | 08/11 |
 |Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 02         | 08/11 |
 |Acesso ao score                      |RF05  |Acesso dos usuários o score gerado                    | 03         |29/11  |
-|Histórico de movimentação            |RF06  |Detalahmento da movimentação realizado pelo usuário   | 03         |29/11  |
+|Histórico de movimentação            |RF06  |Detalhamento da movimentação realizado pelo usuário   | 03         |29/11  |
 
 
 
@@ -63,7 +64,7 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 | Tratamento de dados                 |RNF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
 
 
-## Instalação do projeto/ Funcionalidade
+## Instalação do projeto
 
 
 
@@ -74,24 +75,24 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 ## Contribuintes
 
 - Fernanda Ramos
-- gitlab: https://gitlab.com/ferpsalles
-- Linkedin: https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/
+- [Gitlab] (https://gitlab.com/ferpsalles)
+- [Linkedin] (https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/)
 
 - Gabriel Angelo
-- gitlab:
-- Linkedin:
+- [Gitlab] (https://gitlab.com/Angelog)
+- [Linkedin] (https://www.linkedin.com/in/gabriel-angelo-a4b251116/)
 
 - Nathan Nascimento
-- gitlab:
-- Linkedin:
+- [Gitlab] (https://gitlab.com/n4htan)
+- [Linkedin] (https://www.linkedin.com/in/n4htan/)
 
 - Igor Pereira
-- gitlab:
-- Linkedin:
+- [Gitlab] (https://gitlab.com/igorpereira28)
+- [Linkedin] (https:www.linkedin.com/in/igor-da-silva-pereira-119794159)
 
 - Vitor Daniel Silva
--gitlab: https://gitlab.com/VitorDan
--Linkedin: https://www.linkedin.com/in/vitor-daniel-9343bb150/
+- [Gitlab] (https://gitlab.com/VitorDan)
+- [Linkedin] (https://www.linkedin.com/in/vitor-daniel-9343bb150/)
 
 
 ## Agradecimentos
