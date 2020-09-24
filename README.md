@@ -3,7 +3,8 @@
    * [Entregas](#ENTREGAS)
    * [Problema](#problema)
    * [Requerimentos](#requerimentos)
-   * [Requisitos](#levantamento-de-requisitos)
+   * [Levantamento de requisitos](#levantamento-de-requisitos)
+   * [Requisitos](#requisitos)
       * [Funcionais](#requisitos-funcionais)
       * [Não Funcionais](#requisitos-nao-funcionais)
    * [Instalação](#instalacao-do-projeto)
@@ -36,8 +37,9 @@ O cliente busca otimizar seu negócio através de uma dashbord estatistica, com 
 
 ## Requerimentos (Tecnologias e bibliotecas utilizadas)
 
-- Java
-- framework: Spring Boot, Boostrap 
+1) Em desenvolvimento
+- Java, Python, Html, Css, JavaScript
+- frameworks: Spring Boot, Boostrap 
 - banco de dados relacional: MySQL
 
 ## Levantamento de requisitos:
@@ -58,17 +60,24 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 
 ##### Requisitos não funcionais
 
-| Requisitos não funcionais           |Código|Descrição                                              | Prioridade | Sprint|
-|-------------------------------------|-------|------------------------------------------------------|------------|-------|
-|Documentação do produto              |RNF01  | Documentação do código/Utilização das informações    | 01         | 18/10 |
-| Tratamento de dados                 |RNF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
+| Requisitos não funcionais           |Código|Descrição                                                                    | 
+|-------------------------------------|-------|----------------------------------------------------------------------------|
+|Documentação do produto              |RNF01  | Documentação do código/Utilização das informações                          |
+|Autenticação de usuário              |RNF02  |Verificar autenticidade do usuário                                          |
+|Usabilidade                          |RNF03  |Estética e Design minimalista (aplicação web)                               |
+|Visibilidade do status do sistema    |RNF04  |As informações serão apresentadas de forma organizadas, intuitiva e amigável|
+|Consistência e padrões               |RNF05  |Consistência e padrões na apresentação das informações                      |    
+|Portabilidade                        |RNF06  |A consulta deve estar disponivel nos principais navegadores disponíveis     |
+|Acesso de segurança                  |RNF07  |Acesso seguro das informações                                               |      
+|Responsividade                       |RNF08  |Velocidade de resposta e tempo de atualização de tela                       |      
 
 
 ## Instalação do projeto
-
+Em construção
 
 
 ## Referências 
+Em construção
 
 
 
