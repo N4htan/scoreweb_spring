@@ -49,12 +49,12 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 
 | Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
 |-------------------------------------|------|------------------------------------------------------|------------|-------|
-|Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 01         | 18/10 |
-|Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 01         | 18/10 |
+|Acesso ao score e dashboard          |RF05  |Acesso dos usuários o score gerado                    | 01         | 18/10 |
+|Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 02         | 08/11 |
 |Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 02         | 08/11 |
 |Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 02         | 08/11 |
-|Acesso ao score                      |RF05  |Acesso dos usuários o score gerado                    | 03         |29/11  |
-|Histórico de movimentação            |RF06  |Detalhamento da movimentação realizado pelo usuário   | 03         |29/11  |
+|Histórico de movimentação            |RF06  |Detalhamento da movimentação realizado pelo usuário   | 03         | 29/11 |
+|Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 03         | 29/11 |
 
 
 
