@@ -68,12 +68,15 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 |Visibilidade do status do sistema    |RNF04  |As informações serão apresentadas de forma organizadas, intuitiva e amigável|
 |Consistência e padrões               |RNF05  |Consistência e padrões na apresentação das informações                      |    
 |Portabilidade                        |RNF06  |A consulta deve estar disponivel nos principais navegadores disponíveis     |
-|Acesso de segurança                  |RNF07  |Acesso seguro das informações                                               |      
+|Acesso de segurança                  |RNF07  |Acesso seguro das informações                                               |     
 |Responsividade                       |RNF08  |Velocidade de resposta e tempo de atualização de tela                       |      
 
 
 ## Instalação do projeto
-Em construção
+1. Clonar a aplicação
+2. Abrir a aplicação no Eclipse ou Spring Tool 
+3. Rodar como JavaApplication
+4. Abrir localhost/8080
 
 
 ## Referências 
