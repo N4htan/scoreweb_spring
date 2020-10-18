@@ -15,7 +15,7 @@
 	color: white;
 	text-align: center;
 	width: 100%;
-	position: relative;
+	position: absolute;
 	margin-bottom: 0%;
 	bottom: 0;
 }
@@ -42,12 +42,6 @@ p{
 
 .Score{
 	margin-top: 100px;
-	margin-left: 200px;
-	font-size: 40px;
-}
-
-.Points{
-	margin-top: 30px;
 	margin-left: 200px;
 	font-size: 40px;
 }
