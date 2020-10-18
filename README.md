@@ -76,7 +76,7 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 1. Clonar a aplicação
 2. Abrir a aplicação no Eclipse ou Spring Tool 
 3. Rodar como JavaApplication
-4. Abrir localhost/8080
+4. Abrir localhost:8080
 
 
 ## Referências 
