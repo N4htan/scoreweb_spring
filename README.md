@@ -17,8 +17,8 @@
 ## ENTREGAS
 |  DATA  | SPRINT | Link do vídeo|
 |--------|--------|--------------|
-|  27-09 |   0    |              |
-|  18-10 |   1    |              |
+|  27-09 |   0    |       -       |
+|  18-10 |   1    |https://www.youtube.com/watch?v=hSxAHHQWt9Q&feature=youtu.be              |
 |  08-11 |   2    |              |
 |  29-11 |   3    |              |
 |  30-11 |   -    |Semana de apresentação para o cliente|
