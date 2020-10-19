@@ -50,9 +50,11 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 | Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
 |-------------------------------------|------|------------------------------------------------------|------------|-------|
 |Acesso ao score e dashboard          |RF05  |Acesso dos usuários o score gerado                    | 01         | 18/10 |
+|Acesso ao sistema de pontos          |RF07  |Acesso a recompensa conforme variação do score        | 01         | 18/10 |
 |Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 02         | 08/11 |
-|Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 02         | 08/11 |
-|Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 02         | 08/11 |
+|Comunicação com o Banco de dados     |RF08  |Comunicação com o dataset fornecido pelo cliente      | 02         | 08/11 |
+|Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 03         | 29/11 |
+|Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 03         | 29/11 |
 |Histórico de movimentação            |RF06  |Detalhamento da movimentação realizado pelo usuário   | 03         | 29/11 |
 |Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 03         | 29/11 |
 
@@ -80,7 +82,9 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 
 
 ## Referências 
-Em construção
+1. https://spring.io/projects/spring-boot
+2. https://www.chartjs.org/
+3. https://www.mysql.com/
 
 
 
