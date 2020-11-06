@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.card-header{
+	font-size: 15px;
+	background-color: white;
+}
+
+.card-footer{
+	background-color: rgb(21,70,149);
+	left: 0;
+	bottom: 0;
+	color: white;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	margin-bottom: 0%;
+	bottom: 0;
+}
+
+p{
+	font-size: 15px;
+	padding-top: 2px;
+}
+
+.nav-link{
+	position: relative;left: 10%;
+	font-size: 12px;
+}
+
+.LineChart{
+	height: 300px;
+	width: 600px;
+}
+
+.BarChart{
+	height: 300px;
+	width: 600px;
+}
+
+.Score{
+	margin-top: 100px;
+	margin-left: 200px;
+	font-size: 40px;
+}
+
+.col-md-4 contact-box{
+	padding-top: 10px;
+}
+
+.pointstore{
+	margin-left: 200px;
+}
+
+table{
+	text-align: center;
+}
