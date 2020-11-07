@@ -11,12 +11,16 @@
 </head>
 
 <body>
-<form th:action="@{/registration}" method="get">
-    <button class="btn btn-md btn-warning btn-block" type="Submit">Página de Registro</button>
-</form>
+
+<div style="background: white; height: 40px"></div>
+
+<div align="center">
+    <img th:src="@{/images/logoSVG.svg}" class="img-responsive" width="200" height="200" alt="Logo"/>
+</div>
+
+<div style="background: white; height: 50px"></div>
 
 <div class="container">
-    <img th:src="@{/images/logoSVG.svg}" class="img-responsive" width="200" height="200" alt="Logo"/>
     <form th:action="@{/login}" method="POST" class="form-signin">
         <h3 class="form-signin-heading" th:text="Login"></h3>
         <br/>
@@ -29,8 +33,15 @@
         <div align="center" th:if="${param.error}">
             <p style="font-size: 20; color: #FF1C19;">Usuário ou Senha inválidos!</p>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit"
+
+        <button class="btn btn-lg btn-success btn-block" name="Submit" value="Login" type="Submit"
                 th:text="Login"></button>
+    </form>
+
+    <div style="height: 10px;"></div>
+
+    <form th:action="@{/registration}" method="get">
+        <button class="btn btn-lg btn-warning btn-block" type="Submit">Criar Usuário</button>
     </form>
 </div>
 </body>
