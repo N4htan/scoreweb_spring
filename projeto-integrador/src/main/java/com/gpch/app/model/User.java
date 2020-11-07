@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
@@ -19,10 +20,15 @@ import java.util.Set;
 @Table(name = "users")
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id")
-    private Integer id;
+	
+	
+	 @Id
+	 @GeneratedValue(strategy = GenerationType.AUTO)
+	 @Column(name = "user_id")
+	 private Integer id;
+
+
+    
     @Column(name = "user_name")
     @Length(min = 5, message = "*Your user name must have at least 5 characters")
     @NotEmpty(message = "*Please provide a user name")
@@ -47,6 +53,12 @@ public class User {
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
+    
+    @OneToOne(cascade = CascadeType.ALL, fetch= FetchType.EAGER)
+	@JoinTable(name = "score_id")
+    private Score score_id;
+    
+    
     public Integer getId() {
         return id;
     }
