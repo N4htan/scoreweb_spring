@@ -3,7 +3,7 @@
       xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Projeto Integrador</title>
+    <title>Login - Projeto Integrador</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/login.css}"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -20,25 +20,24 @@
 
 <div style="background: white; height: 50px"></div>
 
-<div class="container">
+<div align="center" class="container">
     <form th:action="@{/login}" method="POST" class="form-signin">
-        <h3 class="form-signin-heading" th:text="Login"></h3>
-        <br/>
+        <h3 th:text="Login"></h3>
 
         <input type="text" id="user_name" name="user_name" placeholder="User Name"
                class="form-control"/> <br/>
+
         <input type="password" th:placeholder="Password"
-               id="password" name="password" class="form-control"/> <br/>
+               id="password" name="password" class="form-control"/><br/>
 
         <div align="center" th:if="${param.error}">
             <p style="font-size: 20; color: #FF1C19;">Usuário ou Senha inválidos!</p>
         </div>
 
-        <button class="btn btn-lg btn-success btn-block" name="Submit" value="Login" type="Submit"
-                th:text="Login"></button>
+        <button class="btn btn-lg btn-success btn-block" name="Submit" value="Login" type="Submit" th:text="Login"></button>
     </form>
 
-    <div style="height: 10px;"></div>
+    <br/>
 
     <form th:action="@{/registration}" method="get">
         <button class="btn btn-lg btn-warning btn-block" type="Submit">Criar Usuário</button>
