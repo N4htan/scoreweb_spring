@@ -7,17 +7,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		function resgatar(){
-			document.getElementById("Points").innerHTML=("Pontos: 84");
-		}
-
-		function falhar(){
-			alert("Pontos Insuficientes !");
-		}
-
-	</script>
-
 	<style>
 	ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; border-top-style: solid; border-width: 1px; border-color: #CFCFCF;}
 	li { float: right;}
@@ -59,44 +48,48 @@
 <div class="container">
 </div>
 
-<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points">Pontos: 264</div>
+<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points"><span th:utext="${userPontos}" ></span></div>
+
 <div class="rewardTable">
-	<table class="table">
-		<thead>
-		<tr>
-			<th scope="col">Serviços</th>
-			<th scope="col">Pontos Necessários</th>
-			<th scope="col"></th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<th scope="row">Consultoria Financeira Pessoal</th>
-			<th>180 pontos</th>
-			<th><a class="rewardButton" onclick="resgatar()">Resgatar</a></th>
-		</tr>
-		<tr>
-			<th scope="row">Consultoria Financeira Familiar</th>
-			<th>360 pontos</th>
-			<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
-		</tr>
-		<tr>
-			<th scope="row">Empreendedorismo: Como Se Preparar Para Abrir uma Empresa</th>
-			<th>450 pontos</th>
-			<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
-		</tr>
-		<tr>
-			<th scope="row">Gestão Financeira - Controle Financeiro Para Autônomos e MEI</th>
-			<th>700 pontos</th>
-			<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
-		</tr>
-		<tr>
-			<th scope="row">Planejador Financeiro Profissional</th>
-			<th>2080 pontos</th>
-			<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
-		</tr>
-		</tbody>
-	</table>
+	<div class="rewardTable">
+		<table class="table">
+			<thead>
+			<tr>
+				<th scope="col">Serviços</th>
+				<th scope="col">Pontos Necessários</th>
+				<th scope="col"></th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">Consultoria Financeira Pessoal</th>
+				<th>180 pontos</th>
+				<th><a class="rewardButton" onclick="resgatar()">Resgatar</a></th>
+			</tr>
+			<tr>
+				<th scope="row">Consultoria Financeira Familiar</th>
+				<th>360 pontos</th>
+				<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
+			</tr>
+			<tr>
+				<th scope="row">Empreendedorismo: Como Se Preparar Para Abrir uma Empresa</th>
+				<th>450 pontos</th>
+				<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
+			</tr>
+			<tr>
+				<th scope="row">Gestão Financeira - Controle Financeiro Para Autônomos e MEI</th>
+				<th>700 pontos</th>
+				<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
+			</tr>
+			<tr>
+				<th scope="row">Planejador Financeiro Profissional</th>
+				<th>2080 pontos</th>
+				<th><a class="rewardButton" onclick="falhar()">Resgatar</a></th>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
 </div>
 
 <div style=" background-color: rgb(21,70,149); left: 0;	bottom: 0; color: white; text-align: center; width: 100%;

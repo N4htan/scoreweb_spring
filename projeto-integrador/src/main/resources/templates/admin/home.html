@@ -48,8 +48,8 @@
 <div class="container">
 	</div>
 		<div style="position: absolute; margin-left: 70%; margin-top: 100px;" class="col-sm">
-			<div style="font-size: 40px;" class="Score"><b>Score: score</b></div>
-			<div style="font-size: 40px;" class="Points"><b>Pontos: 264</b></div>
+			<div style="font-size: 40px;" class="Score"><span th:utext="${userScore}" ></span></div>
+			<div style="font-size: 40px;" class="Points"><span th:utext="${userPontos}" ></span></div>
 			<a class="pointstore" th:href="@{/admin/rewards}">O que fazer com seus pontos?</a>
 		</div>
 		<div class="container" >
