@@ -102,10 +102,6 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 - [Gitlab](https://gitlab.com/n4htan)
 - [Linkedin](https://www.linkedin.com/in/n4htan/)
 
-- Igor Pereira
-- [Gitlab](https://gitlab.com/igorpereira28)
-- [Linkedin](https:www.linkedin.com/in/igor-da-silva-pereira-119794159)
-
 - Vitor Daniel Silva
 - [Gitlab](https://gitlab.com/VitorDan)
 - [Linkedin](https://www.linkedin.com/in/vitor-daniel-9343bb150/)
