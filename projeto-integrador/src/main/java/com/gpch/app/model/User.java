@@ -30,7 +30,7 @@ public class User {
 
     
     @Column(name = "user_name")
-    @Length(min = 5, message = "*Seu nome de usuário deve ter pelo menos 5 caracteres!")
+    @Length(min = 11, message = "*Seu nome de usuário deve ter pelo menos 11 caracteres!")
     @NotEmpty(message = "*Informe um nome de usuário!")
     private String userName;
     @Column(name = "email")

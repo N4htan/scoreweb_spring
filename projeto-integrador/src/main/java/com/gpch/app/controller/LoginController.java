@@ -29,7 +29,13 @@ public class LoginController {
     @GetMapping(value={"/admin/rewards"})
     public ModelAndView rewards(){
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("/admin/rewards");
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        User user = userService.findUserByUserName(auth.getName());
+        modelAndView.addObject("userName", "Bem vindo! " + user.getName() + " " + user.getLastName() + " (" + user.getEmail() + ")");
+        modelAndView.addObject("userScore", "Score: " + user.getScore_id());
+        modelAndView.addObject("userPontos", "Pontos: " + user.getPontos());
+        modelAndView.addObject("adminMessage","Conteúdo disponível apenas para usuários com função administrativa!");
+        modelAndView.setViewName("admin/rewards");
         return modelAndView;
     }
 
