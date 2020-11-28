@@ -36,7 +36,7 @@
 <div>
 	<nav>
 		<ul>
-			<li><a href="#">Home</a></li>
+			<li><a th:href="@{/admin/home}">Home</a></li>
 			<li><a href="#">Histórico de pagamento</a></li>
 			<li><a href="#">Histórico Liberado</a></li>
 			<li><a href="#">Consulte seu CPF</a></li>
@@ -55,6 +55,7 @@
 		<table class="table">
 			<thead>
 			<tr>
+				<a th:href="@{/admin/loja}"><button>Loja</button></a>
 				<th scope="col">Serviços</th>
 				<th scope="col">Pontos Necessários</th>
 				<th scope="col"></th>

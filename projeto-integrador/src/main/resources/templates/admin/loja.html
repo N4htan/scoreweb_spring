@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Lojinha 2.0 - Projeto Integrador</title>
+	<link href="../static/css/styles.css" th:href="@{/css/styles.css}" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+<div>
+	<a th:href="@{/admin/home}"><button>Home</button></a>
+</div>
+<div class="wrapper">
+	<div class="links">
+		<ul>
+			<li data-view="list-view" class="li-list active">
+			<i class="fas fa-th-list"></i>
+			List View</li>
+			<li data-view="grid-view" class="li-grid">
+			<i class="fas fa-th-large"></i>
+			Grid View</li>
+		</ul>
+	</div>
+	<div class="view_main">
+		<div class="view_wrap list-view" style="display: block;">
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money1.png}" alt="money">
+				</div>
+				<div class="vi_right">
+                    <p class="title">Consultoria Financeira Pessoal</p>
+               		<p class="content">Pontos: 180</p>
+                    <div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/moneyfamily.png}" alt="moneyfamily">
+				</div>
+				<div class="vi_right">
+					<p class="title">Consultoria Financeira Familiar</p>
+					<p class="content">Pontos: 250</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money3.png}" alt="money3">
+				</div>
+				<div class="vi_right">
+					<p class="title">Empreendedorismo: Como Se Preparar Para Abrir uma Empresa</p>
+					<p class="content">Pontos: 450</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/moneyplanejador.png}" alt="planejador">
+				</div>
+				<div class="vi_right">
+					<p class="title">Planejador Financeiro Profissional</p>
+					<p class="content">Pontos: 2080</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money4.png}" alt="money4">
+				</div>
+				<div class="vi_right">
+					<p class="title">Gestão Financeira - Controle Financeiro Para Autônomos e MEI</p>
+					<p class="content">Pontos: 700</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+		</div>
+		<div class="view_wrap grid-view" style="display: none;">
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money1.png}" alt="money">
+				</div>
+				<div class="vi_right">
+                    <p class="title">Consultoria Financeira Pessoal</p>
+                    <p class="content">Pontos: 180</p>
+                 <div class="btn">Ver curso</div>
+                 <div class="btn">Resgatar</div>
+             </div>
+         </div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/moneyfamily.png}" alt="moneyfamily">
+				</div>
+				<div class="vi_right">
+					<p class="title">Consultoria Financeira Familiar</p>
+					<p class="content">Pontos: 250</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money3.png}" alt="money3">
+				</div>
+				<div class="vi_right">
+					<p class="title">Empreendedorismo: Como Se Preparar Para Abrir uma Empresa</p>
+					<p class="content">Pontos: 450</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/moneyplanejador.png}" alt="planejador">
+				</div>
+				<div class="vi_right">
+					<p class="title">Planejador Financeiro Profissional</p>
+					<p class="content">Pontos: 2080</p>
+					<div class="btn">Ver curso</div>
+                    <div class="btn">Resgatar</div>
+				</div>
+			</div>
+			<div class="view_item">
+				<div class="vi_left">
+					<img th:src="@{/images/money4.png}" alt="money4">
+				</div>
+				<div class="vi_right">
+					<div class="vi_right">
+                        <p class="title">Gestão Financeira - Controle Financeiro Para Autônomos e MEI</p>
+                        <p class="content">Pontos: 700</p>
+                        <div class="btn">Ver curso</div>
+                        <div class="btn">Resgatar</div>
+                    </div>
+                </div>
+				</div>
+	</div>
+</div>
+	
+<script type="text/javascript" src="../static/js/scripts.js" th:src="@{/js/scripts.js}"></script>
+
+</body>
+</html>
