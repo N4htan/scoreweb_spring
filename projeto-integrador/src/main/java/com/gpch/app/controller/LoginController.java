@@ -81,6 +81,13 @@ public class LoginController {
         modelAndView.setViewName("admin/home");
         return modelAndView;
     }
+    
+    @GetMapping(value="/admin/loja")
+    public ModelAndView loja(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("admin/loja");
+        return modelAndView;
+    }
 
 
 }
