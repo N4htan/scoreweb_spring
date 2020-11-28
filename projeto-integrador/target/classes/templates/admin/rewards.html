@@ -3,16 +3,17 @@
 	  xmlns:th="http://www.thymeleaf.org">
 
 <head>
+	<meta charset="UTF-8">
 	<title>Recompensas SPC - Projeto Integrador</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<style>
-	ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; border-top-style: solid; border-width: 1px; border-color: #CFCFCF;}
-	li { float: right;}
-	li a {display: block; text-align: center; padding: 14px 16px; text-decoration: none; color: #9C9C9C;}
-	p{ font-size: 15px;	padding-top: 2px;}
+		ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; border-top-style: solid; border-width: 1px; border-color: #CFCFCF;}
+		li { float: right;}
+		li a {display: block; text-align: center; padding: 14px 16px; text-decoration: none; color: #9C9C9C; font-size: 15px;}
+		p{ font-size: 15px;	padding-top: 2px;}
 	</style>
 </head>
 
@@ -20,13 +21,13 @@
 
 <div>
 	<form th:action="@{/logout}" method="get">
-		<button style="float: right; margin-top: 3px; margin-bottom: 3px; margin-right: 3px; margin-left: 3px;" class="btn btn-sm btn-danger" name="registration"
+		<button style="font-size: 14px; float: right; margin-top: 3px; margin-bottom: 3px; margin-right: 3px; margin-left: 3px;" class="btn btn-sm btn-danger" name="registration"
 				type="Submit">Sair
 		</button>
 	</form>
 </div>
 
-<div style="float: right; margin-top: 6px; margin-bottom: 0px; margin-right: 3px; margin-left: 3px; align" >
+<div style="font-size: 14px; float: right; margin-top: 6px; margin-bottom: 0px; margin-right: 3px; margin-left: 3px; align" >
 	<span th:utext="${userName}" ></span>
 </div>
 
@@ -38,6 +39,7 @@
 	<nav>
 		<ul>
 			<li><a th:href="@{/admin/home}">Home</a></li>
+			<li><a th:href="@{/admin/rewards}">Voltar</a></li>
 			<li><a href="#">Histórico de pagamento</a></li>
 			<li><a href="#">Histórico Liberado</a></li>
 			<li><a href="#">Consulte seu CPF</a></li>
@@ -49,47 +51,40 @@
 <div class="container">
 </div>
 
-<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points"><span th:utext="${userPontos}" ></span></div>
-
-<div class="rewardTable">
-	<div class="rewardTable">
-		<table class="table">
-			<thead>
-			<tr>
-				
-				<th scope="col">Sistema de Recompensas</th>
-								<th scope="col"></th>
-			</tr>
-			</thead>
-		    </tbody>
-            
-            </table>
-        
-        <div class="container">
-            <div class="row">
-              <div class="col order-last">
-                <h4>O que é o sistema de Recompensas</h4>
-                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-              </div>
-              <div class="col">
-                <h4>Como Ganhar Pontos</h4>
-                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-              </div>
-              <div class="col order-first">
-                <h4>Vantagens</h4>
-                <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-        <div class="col-lg-15" style="text-align: center; margin:20rem">
-            <a th:href="@{/admin/loja}"><button type="button" class="btn btn-outline-primary">Loja</button>
-            <button type="button" class="btn btn-outline-primary">Fale Conosco </button>
-	    </div>
-        
+<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points">
+	<span th:utext="${userPontos}" ></span>
+</div>
+<div style="margin-left: 1%;">
+<h1>Sistema de Pontos</h1>
+</div>
+<div class="card border border-dark" style="width: 98%; margin-left: 1%;">
+	<div class="card-body">
+		<h2 class="card-title" style="text-align: center;">O que é o Sistema de Recompensas?</h2>
+		<p class="card-text" style="text-justify: auto;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	</div>
-
+</div>
+<div class="row" style="margin-top: 60px; margin-right: 2px; margin-left: 2px;">
+	<div class="col-sm-6">
+		<div class="card border border-dark">
+			<div class="card-body">
+				<h2 class="card-title" style="text-align: center;">Como Ganhar Pontos</h2>
+				<p class="card-text" style="text-justify: auto;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card border border-dark">
+			<div class="card-body">
+				<h2 class="card-title" style="text-align: center;">Vantagens</h2>
+				<p class="card-text" style="text-justify: auto;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="text-align: center;">
+	<a th:href="@{/admin/loja}"><button class="btn btn-outline-success"
+			style="width: 200px; margin-right: 70px; margin-top: 60px; font-size: 15px;">Loja</button>
+	<button class="btn btn-outline-success" style="width: 200px; margin-left: 10px; margin-top: 60px; font-size: 15px;">Fale Conosco</button>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
