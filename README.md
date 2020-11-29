@@ -15,7 +15,7 @@
 
 
 
-# :heavy_check_mark: Entregas e Vídeos <a name="-entregas"/></a>
+## :heavy_check_mark: Entregas e Vídeos <a name="-entregas"/></a>
 
 
 |  DATA  | SPRINT | Link do vídeo|
