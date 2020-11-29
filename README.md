@@ -2,25 +2,21 @@
   Projeto Integrador - KIND OF
 </h3>
 
-<p align="center">O projeto integrador consiste na criação de uma aplicação web com dashboard e análise estatística. </p>
+<p align="center">O projeto integrador consiste na criação de uma aplicação web com dashboard. </p>
 
-
-<!--ts-->
-   * [Entregas](#ENTREGAS)
-   * [Problema](#problema)
-   * [Requerimentos](#requerimentos)
-   * [Levantamento de requisitos](#levantamento-de-requisitos)
-   * [Requisitos](#requisitos)
-      * [Funcionais](#requisitos-funcionais)
-      * [Não Funcionais](#requisitos-nao-funcionais)
-   * [Instalação](#instalacao-do-projeto)
-   * [Referências](#referencias)
-   * [Contribuintes](#contribuintes)
-<!--te-->
+<p align="center">
+   <a href="#-entregas">Entregas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalacao">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
+</p
 
 
 
-## ENTREGAS
+# :heavy_check_mark: Sobre o projeto <a name="-Entregas"/></a>
+
+
 |  DATA  | SPRINT | Link do vídeo|
 |--------|--------|--------------|
 |  27-09 |   0    |       -       |
