@@ -55,13 +55,13 @@
 		<div class="view_item">
 			<div class="vi_left">
 				<div th:each="reward : ${reward}">
-					<div class="row">
+					<div class="row border" style="margin: 10px;">
 						<div class="col-12">
 							<p class="title"><span th:text="${reward.descricao}"></span></p>
 						</div>
 						<div class="col-12">
-							<p class="content">Pontos: <span th:text="${reward.custo}"></span></p>
-						</div><div class="col-2">
+							<p class="content" >Pontos: <span th:text="${reward.custo}"></span></p>
+						</div><div class="col-3">
 						<div class="btn">Ver curso</div>
 						</div>
 						<div class="col-2">
