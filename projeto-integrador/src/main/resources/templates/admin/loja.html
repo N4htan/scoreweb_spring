@@ -46,11 +46,30 @@
 	</nav>
 </div>
 
+<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points">
+	<span th:utext="${userPontos}" ></span>
+</div>
+
 <div class="wrapper">
-	<div th:each="reward : ${reward}">
-		<div class="row">
-			<p><span th:text="${reward.descricao}"></span></p>
-			<p><span th:text="${reward.custo}"></span></p>
+	<div class="view_main">
+		<div class="view_item">
+			<div class="vi_left">
+				<div th:each="reward : ${reward}">
+					<div class="row">
+						<div class="col-12">
+							<p class="title"><span th:text="${reward.descricao}"></span></p>
+						</div>
+						<div class="col-12">
+							<p class="content">Pontos: <span th:text="${reward.custo}"></span></p>
+						</div><div class="col-2">
+						<div class="btn">Ver curso</div>
+						</div>
+						<div class="col-2">
+							<div class="btn">Resgatar</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
