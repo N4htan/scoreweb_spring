@@ -45,15 +45,14 @@ O objetivo do trabalho é reinventar a forma de aproximação do usuário da pla
 
 ## :memo: Levantamento de Requisitos <a name="-requisitos"/></a> 
 
-```
-Criação de uma aplicação web com dashbord estatistica, com a linguagem principal utilizada sendo o Java.
-```
-```
-A aplicação deve conter um login. As informações apresentadas devem ser intuitivas pois trata-se de um ambiente com assuntos financeiros, ou seja, deve agregar pessoas bancarizadas e não bancarizadas. 
-```
-```
-A aplicação precisa agregar valor a um sistema já em andamento. A aproximação do cliente/usuário será realizada atraves da utilização de pontos e utilizar na "loja" virtual ambientalizada dentro do login de cada usuário.
-```
+
+> Criação de uma aplicação web com dashbord estatistica, com a linguagem principal utilizada sendo o Java.
+
+> A aplicação deve conter um login. As informações apresentadas devem ser intuitivas pois trata-se de um ambiente com assuntos financeiros, ou seja, deve agregar pessoas bancarizadas e não bancarizadas. 
+
+> A aplicação precisa agregar valor a um sistema já em andamento. A aproximação do cliente/usuário será realizada atraves da utilização de pontos e utilizar na "loja" virtual ambientalizada dentro do login de cada usuário.
+
+
 
 ##### Requisitos Funcionais
 
