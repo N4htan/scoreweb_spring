@@ -1,4 +1,10 @@
-# KIND OF - PI
+<h3 align="center">
+  Projeto Integrador - KIND OF
+</h3>
+
+<p align="center">O projeto integrador consiste na criação de uma aplicação web com dashboard e análise estatística. </p>
+
+
 <!--ts-->
    * [Entregas](#ENTREGAS)
    * [Problema](#problema)
@@ -25,9 +31,11 @@
 
 
 
-## Projeto Integrador realizado pelos alunos do 3º (terceiro) semestre de Banco de Dados da FATEC/SJC no ano de 2020.
+## :page_with_curl: Sobre o projeto <a name="-sobre"/></a>
 
-O projeto integrador consiste na criação de uma aplicação web com dashboard e análise estatística. 
+> É proposto o desenvolvimento de um Sistema de Recompensas dentro de uma aplicação do cliente. 
+
+O objetivo do trabalho é reinventar a forma de aproximação do usuário da plataforma. Não consistindo na criação web de apenas consultas, mas sim em uma aplicação utilizando o sistema de recompensas, na qual o usuário poderá utiliza-los dentro da aplicação com o que o cliente poderá fornecer. As recompensas foram demostradas através de cursos que poderão auxiliar o usuário com a própria gestão financeira. 
 
 
 ## Problema
@@ -38,7 +46,7 @@ O cliente busca otimizar seu negócio através de uma dashbord estatistica, com 
 ## Requerimentos (Tecnologias e bibliotecas utilizadas)
 
 1) Em desenvolvimento
-- Java, Python, Html, Css, JavaScript
+- Java, Html, Css, JavaScript
 - frameworks: Spring Boot, Boostrap 
 - banco de dados relacional: MySQL
 
