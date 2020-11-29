@@ -1,6 +1,8 @@
 package com.gpch.app.controller;
 
+import com.gpch.app.model.Reward;
 import com.gpch.app.model.User;
+import com.gpch.app.repository.RewardRepository;
 import com.gpch.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -18,6 +20,9 @@ public class LoginController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private RewardRepository rewardRepository;
 
     @GetMapping(value={"/", "/login"})
     public ModelAndView login(){
@@ -92,6 +97,9 @@ public class LoginController {
         modelAndView.addObject("userPontos", "Pontos: " + user.getPontos());
         modelAndView.addObject("adminMessage","Conteúdo disponível apenas para usuários com função administrativa!");
         modelAndView.setViewName("admin/loja");
+
+        Iterable<Reward> rewards = rewardRepository.findAll();
+        modelAndView.addObject("reward",rewards);
         return modelAndView;
     }
 
