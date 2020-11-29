@@ -8,7 +8,8 @@
    <a href="#-entregas">Entregas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalacao">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-referencias">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   
 </p
 
@@ -34,24 +35,34 @@
 O objetivo do trabalho é reinventar a forma de aproximação do usuário da plataforma. Não consistindo na criação web de apenas consultas, mas sim em uma aplicação utilizando o sistema de recompensas, na qual o usuário poderá utiliza-los dentro da aplicação com o que o cliente poderá fornecer. As recompensas foram demostradas através de cursos que poderão auxiliar o usuário com a própria gestão financeira. 
 
 
-## Requerimentos (Tecnologias e bibliotecas utilizadas)
+## :memo: Referências <a name="-tecnologias"/></a> 
 
-1) Em desenvolvimento
+```
 - Java, Html, Css, JavaScript
 - frameworks: Spring Boot, Boostrap 
 - banco de dados relacional: MySQL
+```
 
-## Levantamento de requisitos:
-Criação de uma aplicação web com dashbord estatistica. A aplicação deve conter um login. As informações apresentadas devem ser intuitivas pois trata-se de um ambiente com assuntos financeiros, ou seja, deve agregar pessoas bancarizadas e não bancarizadas. 
+## :memo: Levantamento de Requisitos <a name="-requisitos"/></a> 
+
+```
+Criação de uma aplicação web com dashbord estatistica, com a linguagem principal utilizada sendo o Java.
+```
+```
+A aplicação deve conter um login. As informações apresentadas devem ser intuitivas pois trata-se de um ambiente com assuntos financeiros, ou seja, deve agregar pessoas bancarizadas e não bancarizadas. 
+```
+```
+A aplicação precisa agregar valor a um sistema já em andamento. A aproximação do cliente/usuário será realizada atraves da utilização de pontos e utilizar na "loja" virtual ambientalizada dentro do login de cada usuário.
+```
 
 ##### Requisitos Funcionais
 
 | Requisitos funcionais               |Código|Descrição                                             | Prioridade | Sprint|
 |-------------------------------------|------|------------------------------------------------------|------------|-------|
 |Acesso ao score e dashboard          |RF05  |Acesso dos usuários o score gerado                    | 01         | 18/10 |
-|Acesso ao sistema de pontos          |RF07  |Acesso a recompensa conforme variação do score        | 01         | 18/10 |
+|Acesso ao sistema de pontos          |RF06  |Acesso a recompensa conforme variação do score        | 01         | 18/10 |
 |Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 02         | 08/11 |
-|Comunicação com o Banco de dados     |RF08  |Comunicação com o dataset fornecido pelo cliente      | 02         | 08/11 |
+|Comunicação com o Banco de dados     |RF07  |Comunicação com o dataset fornecido pelo cliente      | 02         | 08/11 |
 |Sistema de Recompenas                |RF03  |Disponibilidade de recursos da recompensas de pontos  | 03         | 29/11 |
 |Modificar informações pontos         |RF04  |Alteração de pontos pelo sistema de recompensas       | 03         | 29/11 |
 |Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 02         | 08/11 |
