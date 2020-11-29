@@ -8,13 +8,13 @@
    <a href="#-entregas">Entregas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalacao">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-referencias">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   
 </p
 
 
 
-# :heavy_check_mark: Sobre o projeto <a name="-Entregas"/></a>
+# :heavy_check_mark: Entregas e Vídeos <a name="-entregas"/></a>
 
 
 |  DATA  | SPRINT | Link do vídeo|
@@ -29,14 +29,9 @@
 
 ## :page_with_curl: Sobre o projeto <a name="-sobre"/></a>
 
-> É proposto o desenvolvimento de um Sistema de Recompensas dentro de uma aplicação do cliente. 
+> É proposto o desenvolvimento de um Sistema de Recompensas dentro de uma aplicação do cliente. O cliente busca otimizar seu negócio através de uma dashbord, com as informações mais atrativas e impactantes para seus clientes. O cliente pode acompanhar seus respectivos dados de maneira segura e organizada, e caso necessário, e tomar a decisões a partir delas.
 
 O objetivo do trabalho é reinventar a forma de aproximação do usuário da plataforma. Não consistindo na criação web de apenas consultas, mas sim em uma aplicação utilizando o sistema de recompensas, na qual o usuário poderá utiliza-los dentro da aplicação com o que o cliente poderá fornecer. As recompensas foram demostradas através de cursos que poderão auxiliar o usuário com a própria gestão financeira. 
-
-
-## Problema
-
-O cliente busca otimizar seu negócio através de uma dashbord estatistica, com as informações mais atrativas e impactantes para seus clientes. Como muitos dados são gerados a todo momento, o cliente pode acompanhar seus respectivos dados de maneira segura e organizada, e caso necessário, e tomar a decisões a partir delas.
 
 
 ## Requerimentos (Tecnologias e bibliotecas utilizadas)
@@ -57,10 +52,9 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 |Acesso ao sistema de pontos          |RF07  |Acesso a recompensa conforme variação do score        | 01         | 18/10 |
 |Tratamento de dados                  |RF02  |Organização dos dados forneceidos                     | 02         | 08/11 |
 |Comunicação com o Banco de dados     |RF08  |Comunicação com o dataset fornecido pelo cliente      | 02         | 08/11 |
-|Remover usuários                     |RF03  |Remoção de usuários do sistema                        | 03         | 29/11 |
-|Modificar informações usuários       |RF04  |Alteração de informações fornecidas pelo usuário      | 03         | 29/11 |
-|Histórico de movimentação            |RF06  |Detalhamento da movimentação realizado pelo usuário   | 03         | 29/11 |
-|Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 03         | 29/11 |
+|Sistema de Recompenas                |RF03  |Disponibilidade de recursos da recompensas de pontos  | 03         | 29/11 |
+|Modificar informações pontos         |RF04  |Alteração de pontos pelo sistema de recompensas       | 03         | 29/11 |
+|Cadastro de usuários                 |RF01  |Registro de novos usuários (Pessoa juridica e física) | 02         | 08/11 |
 
 
 
@@ -78,37 +72,31 @@ Criação de uma aplicação web com dashbord estatistica. A aplicação deve co
 |Responsividade                       |RNF08  |Velocidade de resposta e tempo de atualização de tela                       |      
 
 
-## Instalação do projeto
+## :computer: Instalação e execução <a name="-instalacao"/></a>
 1. Clonar a aplicação
-2. Abrir a aplicação no Eclipse ou Spring Tool 
+2. Abrir a aplicação na IDE que desejar (Eclipse, IntelliJ, Spring Tool) 
+3. Ajustar as configurações do banco de dados na Application.properties.
 3. Rodar como JavaApplication
 4. Abrir localhost:8080
 
+Você também pode acompanhar através desse [link](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/MANUAL_PARA_RODAR_O_PROJETO_PELA_PRIMEIRA_VEZ.pdf)
 
-## Referências 
+
+## :computer: Referências <a name="-referencias"/></a> 
 1. https://spring.io/projects/spring-boot
 2. https://www.chartjs.org/
 3. https://www.mysql.com/
 
 
 
-## Contribuintes
+## :email: Contato
+- Fernanda Ramos - [Gitlab](https://gitlab.com/ferpsalles) - [Linkedin](https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/)
 
-- Fernanda Ramos
-- [Gitlab](https://gitlab.com/ferpsalles)
-- [Linkedin](https://www.linkedin.com/in/fernanda-ramos-de-padua-salles-44329b157/)
+- Gabriel Angelo - [Gitlab](https://gitlab.com/Angelog)- [Linkedin](https://www.linkedin.com/in/gabriel-angelo-a4b251116/)
 
-- Gabriel Angelo
-- [Gitlab](https://gitlab.com/Angelog)
-- [Linkedin](https://www.linkedin.com/in/gabriel-angelo-a4b251116/)
+- Nathan Nascimento - [Gitlab](https://gitlab.com/n4htan)- [Linkedin](https://www.linkedin.com/in/n4htan/)
 
-- Nathan Nascimento
-- [Gitlab](https://gitlab.com/n4htan)
-- [Linkedin](https://www.linkedin.com/in/n4htan/)
-
-- Vitor Daniel Silva
-- [Gitlab](https://gitlab.com/VitorDan)
-- [Linkedin](https://www.linkedin.com/in/vitor-daniel-9343bb150/)
+- Vitor Daniel Silva - [Gitlab](https://gitlab.com/VitorDan)- [Linkedin](https://www.linkedin.com/in/vitor-daniel-9343bb150/)
 
 
 ## Agradecimentos
