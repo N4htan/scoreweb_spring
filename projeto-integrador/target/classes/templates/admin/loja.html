@@ -47,64 +47,10 @@
 </div>
 
 <div class="wrapper">
-	   
-	<div class="view_main">
-		<div class="view_wrap list-view" style="display: block;">
-			<div class="view_item">
-				<div class="vi_left">
-					<img th:src="@{/images/money1.png}" alt="money">
-				</div>
-				<div class="vi_right">
-                    <p class="title">Consultoria Financeira Pessoal</p>
-               		<p class="content">Pontos: 180</p>
-                    <div class="btn">Ver curso</div>
-                    <div class="btn">Resgatar</div>
-				</div>
-			</div>
-			<div class="view_item">
-				<div class="vi_left">
-					<img th:src="@{/images/moneyfamily.png}" alt="moneyfamily">
-				</div>
-				<div class="vi_right">
-					<p class="title">Consultoria Financeira Familiar</p>
-					<p class="content">Pontos: 250</p>
-					<div class="btn">Ver curso</div>
-                    <div class="btn">Resgatar</div>
-				</div>
-			</div>
-			<div class="view_item">
-				<div class="vi_left">
-					<img th:src="@{/images/money3.png}" alt="money3">
-				</div>
-				<div class="vi_right">
-					<p class="title">Empreendedorismo: Como Se Preparar Para Abrir uma Empresa</p>
-					<p class="content">Pontos: 450</p>
-					<div class="btn">Ver curso</div>
-                    <div class="btn">Resgatar</div>
-				</div>
-			</div>
-			<div class="view_item">
-				<div class="vi_left">
-					<img th:src="@{/images/moneyplanejador.png}" alt="planejador">
-				</div>
-				<div class="vi_right">
-					<p class="title">Planejador Financeiro Profissional</p>
-					<p class="content">Pontos: 2080</p>
-					<div class="btn">Ver curso</div>
-                    <div class="btn">Resgatar</div>
-				</div>
-			</div>
-			<div class="view_item">
-				<div class="vi_left">
-					<img th:src="@{/images/money4.png}" alt="money4">
-				</div>
-				<div class="vi_right">
-					<p class="title">Gestão Financeira - Controle Financeiro Para Autônomos e MEI</p>
-					<p class="content">Pontos: 700</p>
-					<div class="btn">Ver curso</div>
-                    <div class="btn">Resgatar</div>
-				</div>
-			</div>
+	<div th:each="reward : ${reward}">
+		<div class="row">
+			<p><span th:text="${reward.descricao}"></span></p>
+			<p><span th:text="${reward.custo}"></span></p>
 		</div>
 	</div>
 </div>
