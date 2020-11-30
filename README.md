@@ -91,6 +91,17 @@ O objetivo do trabalho é reinventar a forma de aproximação do usuário da pla
 
 Você também pode acompanhar através desse [link](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/MANUAL_PARA_RODAR_O_PROJETO_PELA_PRIMEIRA_VEZ.pdf)
 
+## :computer: Visões do Usuário <a name="-visao"/></a>
+
+1. Tela de login
+![login] (https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/login.png)
+
+2. Tela de Cadastro
+![cadastro](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/cad.png)
+
+3. Home View
+![registro] (https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/HOME.png)
+
 
 ## :computer: Referências <a name="-referencias"/></a> 
 1. https://spring.io/projects/spring-boot
