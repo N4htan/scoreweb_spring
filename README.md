@@ -94,13 +94,25 @@ Você também pode acompanhar através desse [link](https://gitlab.com/ferpsalle
 ## :computer: Visões do Usuário <a name="-visao"/></a>
 
 1. Tela de login
-!(https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/login.png)
+
+<p align="center">
+  <img src="./bd/login.png" alt="Logo" width=50% height=50%>
+</p>
+![login](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/login.png)
 
 2. Tela de Cadastro
-!(https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/cad.png)
+
+<p align="center">
+  <img src="./bd/cad.png" alt="Logo" width=50% height=50%>
+</p>
+![cadastro](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/cad.png)
 
 3. Home View
-!(https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/HOME.png)
+
+<p align="center">
+  <img src="./bd/HOME.png" alt="Logo" width=50% height=50%>
+</p>
+![home](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/HOME.png)
 
 
 ## :computer: Referências <a name="-referencias"/></a> 
