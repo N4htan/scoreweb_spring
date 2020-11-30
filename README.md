@@ -98,22 +98,18 @@ Você também pode acompanhar através desse [link](https://gitlab.com/ferpsalle
 <p align="center">
   <img src="./bd/login.png" alt="Logo" width=50% height=50%>
 </p>
-![login](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/login.png)
 
 2. Tela de Cadastro
 
 <p align="center">
   <img src="./bd/cad.png" alt="Logo" width=50% height=50%>
 </p>
-![cadastro](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/cad.png)
 
 3. Home View
 
 <p align="center">
   <img src="./bd/HOME.png" alt="Logo" width=50% height=50%>
 </p>
-![home](https://gitlab.com/ferpsalles/kind-of-pi/-/blob/master/bd/HOME.png)
-
 
 ## :computer: Referências <a name="-referencias"/></a> 
 1. https://spring.io/projects/spring-boot
