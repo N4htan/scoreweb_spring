@@ -1,5 +1,7 @@
 package com.gpch.app.service;
 
+import com.gpch.app.controller.RewardController;
+import com.gpch.app.model.Reward;
 import com.gpch.app.model.Role;
 import com.gpch.app.model.User;
 import com.gpch.app.repository.RoleRepository;
@@ -13,8 +15,11 @@ import java.util.HashSet;
 
 @Service
 public class UserService {
-
+    @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private RewardController rewardController;
+
     private RoleRepository roleRepository;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
@@ -41,6 +46,11 @@ public class UserService {
         Role userRole = roleRepository.findByRole("ADMIN");
         user.setRoles(new HashSet<Role>(Arrays.asList(userRole)));
         return userRepository.save(user);
+    }
+
+    public  User updateUser(User user){
+        user.setPontos(user.getPontos()-180);
+        return  userRepository.save(user);
     }
 
 }

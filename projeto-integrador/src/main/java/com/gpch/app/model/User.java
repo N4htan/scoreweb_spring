@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
@@ -17,60 +16,56 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "users")
+@Table(name="users")
 public class User {
 
-	
-	
-	 @Id
-	 @GeneratedValue(strategy = GenerationType.AUTO)
-	 @Column(name = "user_id")
-	 private Integer id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "user_id")
+    private Long id;
 
-
-    
     @Column(name = "user_name")
-    @Length(min = 11, message = "*Seu nome de usuário deve ter pelo menos 11 caracteres!")
-    @NotEmpty(message = "*Informe um nome de usuário!")
+    @Length(min = 11, message = "*Seu cpf deve ter pelo menos 11 caracteres!")
+    @NotEmpty(message = "*Informe um cpf!")
     private String userName;
+
     @Column(name = "email")
     @Email(message = "*Por favor, informe um e-mail válido!")
     @NotEmpty(message = "*Informe um e-mail!")
     private String email;
+
     @Column(name = "password")
     @Length(min = 5, message = "*Sua senha deve ter pelo menos 5 caracteres!")
     @NotEmpty(message = "*Por favor, informe sua senha!")
     private String password;
+
     @Column(name = "name")
     @NotEmpty(message = "*Por favor, informe seu nome!")
     private String name;
+
     @Column(name = "last_name")
     @NotEmpty(message = "*Por favor, informe seu sobrenome!")
     private String lastName;
+
     @Column(name = "active")
     private Boolean active;
+
     @Column(name = "pontos")
     private int pontos;
+
     @ManyToMany(cascade = CascadeType.MERGE)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
-    
     @OneToOne(cascade = CascadeType.ALL, fetch= FetchType.EAGER)
-	@JoinTable(name = "score_id")
+    @JoinTable(name = "score_id")
     private Score score_id;
 
-    public int getPontos() { return pontos; }
-
-    public void setPontos(int pontos) { this.pontos = pontos; }
-
-    public Score getScore_id() { return score_id; }
-
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -122,11 +117,27 @@ public class User {
         this.active = active;
     }
 
+    public int getPontos() {
+        return pontos;
+    }
+
+    public void setPontos(int pontos) {
+        this.pontos = pontos;
+    }
+
     public Set<Role> getRoles() {
         return roles;
     }
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
+    }
+
+    public Score getScore_id() {
+        return score_id;
+    }
+
+    public void setScore_id(Score score_id) {
+        this.score_id = score_id;
     }
 }

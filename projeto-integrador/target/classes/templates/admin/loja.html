@@ -46,33 +46,27 @@
 	</nav>
 </div>
 
-<div align="center" style="font-size: 22px; margin-top: 20px; margin-bottom: 10px;" id="Points">
-	<span th:utext="${userPontos}" ></span>
-</div>
+	<div class="wrapper">
+		<table border="1" cellpadding="10">
+			<thead>
+			<tr>
+				<th>Descrição</th>
+				<th>Custo</th>
+				<th>Ações</th>
 
-<div class="wrapper">
-	<div class="view_main">
-		<div class="view_item">
-			<div class="vi_left">
-				<div th:each="reward : ${reward}">
-					<div class="row">
-						<div class="col-12">
-							<p class="title"><span th:text="${reward.descricao}"></span></p>
-						</div>
-						<div class="col-12">
-							<p class="content">Pontos: <span th:text="${reward.custo}"></span></p>
-						</div><div class="col-2">
-						<div class="btn">Ver curso</div>
-						</div>
-						<div class="col-2">
-							<div class="btn">Resgatar</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+			</tr>
+			</thead>
+			<tbody>
+			<tr th:each="reward : ${reward}">
+				<td th:text="${reward.descricao}">Descrição</td>
+				<td th:text="${reward.custo}">Custo</td>
+				<td>
+					<a th:href="@{'/edit/' + ${reward.id}}">Resgatar</a>
+				</td>
+			</tr>
+			</tbody>
+		</table>
 	</div>
-</div>
 
 <script type="text/javascript" src="../static/js/scripts.js" th:src="@{/js/scripts.js}"></script>
 
