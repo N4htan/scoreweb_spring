@@ -1,23 +1,33 @@
 package com.gpch.app.controller;
 
 import com.gpch.app.model.Reward;
-import com.gpch.app.repository.RewardRepository;
+import com.gpch.app.service.RewardService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-@RestController
+@Controller
 public class RewardController {
-
     @Autowired
-    private RewardRepository rewardRepository;
+    private RewardService rewardService;
 
-    @RequestMapping("/rewards")
-    public ModelAndView listRewards(){
-        ModelAndView mv = new ModelAndView("reward");
-        Iterable<Reward> rewards = rewardRepository.findAll();
-        mv.addObject("reward",rewards);
-        return mv;
+
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public String saveReward(@ModelAttribute("reward") Reward reward) {
+        rewardService.save(reward);
+
+        return "redirect:/admin/loja";
+    }
+
+    @RequestMapping("/edit/{id}")
+    public ModelAndView showEditRewardPage(@PathVariable(name = "id") int id) {
+        ModelAndView mav = new ModelAndView("/admin/resgateConfirm");
+        Reward reward = rewardService.get(id);
+        mav.addObject("reward", reward);
+        return mav;
     }
 }

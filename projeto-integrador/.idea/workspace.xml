@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a02a522-e66d-45eb-9407-f650632fe901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/LojaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/RewardController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/model/Reward.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/RewardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/service/RewardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/resgateConfirm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/model/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/model/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/ScoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/ScoreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpch/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpch/app/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/loja.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/loja.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpch/app/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpch/app/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpch/app/model/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpch/app/model/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpch/app/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpch/app/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpch/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpch/app/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpch/app/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpch/app/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/loja.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/loja.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -45,7 +65,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -108,16 +130,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="458" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/-1280.-255.1280.1024@0.0.1366.768" timestamp="1606589288015" />
-    <state x="686" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1604849083160">
+    <state x="686" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1606689496721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/-1280.-256.1280.1024@0.0.1366.768" timestamp="1604542335757" />
-    <state x="686" y="92" key="#com.intellij.ide.util.MemberChooser/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604849083160" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604871733027">
+    <state x="686" y="92" key="#com.intellij.ide.util.MemberChooser/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606689496721" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606688034214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604871733027" />
-    <state width="1865" height="347" key="GridCell.Tab.0.bottom" timestamp="1606676014730">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606688034214" />
+    <state width="1865" height="168" key="GridCell.Tab.0.bottom" timestamp="1606698316491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="106" key="GridCell.Tab.0.bottom/0.0.1366.768/-1280.-255.1280.1024@-1280.-255.1280.1024" timestamp="1606588316558" />
@@ -125,8 +148,8 @@
     <state width="1237" height="276" key="GridCell.Tab.0.bottom/0.0.1366.768/-1280.-256.1280.1024@-1280.-256.1280.1024" timestamp="1604541284693" />
     <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768/-1280.-256.1280.1024@0.0.1366.768" timestamp="1604543481926" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604873095762" />
-    <state width="1865" height="347" key="GridCell.Tab.0.bottom/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606676014730" />
-    <state width="1865" height="347" key="GridCell.Tab.0.center" timestamp="1606676014730">
+    <state width="1865" height="168" key="GridCell.Tab.0.bottom/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606698316491" />
+    <state width="1865" height="168" key="GridCell.Tab.0.center" timestamp="1606698316491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="106" key="GridCell.Tab.0.center/0.0.1366.768/-1280.-255.1280.1024@-1280.-255.1280.1024" timestamp="1606588316558" />
@@ -134,8 +157,8 @@
     <state width="1237" height="276" key="GridCell.Tab.0.center/0.0.1366.768/-1280.-256.1280.1024@-1280.-256.1280.1024" timestamp="1604541284693" />
     <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.768/-1280.-256.1280.1024@0.0.1366.768" timestamp="1604543481925" />
     <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604873095762" />
-    <state width="1865" height="347" key="GridCell.Tab.0.center/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606676014730" />
-    <state width="1865" height="347" key="GridCell.Tab.0.left" timestamp="1606676014730">
+    <state width="1865" height="168" key="GridCell.Tab.0.center/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606698316491" />
+    <state width="1865" height="168" key="GridCell.Tab.0.left" timestamp="1606698316490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="106" key="GridCell.Tab.0.left/0.0.1366.768/-1280.-255.1280.1024@-1280.-255.1280.1024" timestamp="1606588316557" />
@@ -143,8 +166,8 @@
     <state width="1237" height="276" key="GridCell.Tab.0.left/0.0.1366.768/-1280.-256.1280.1024@-1280.-256.1280.1024" timestamp="1604541284692" />
     <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.768/-1280.-256.1280.1024@0.0.1366.768" timestamp="1604543481925" />
     <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604873095762" />
-    <state width="1865" height="347" key="GridCell.Tab.0.left/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606676014730" />
-    <state width="1865" height="347" key="GridCell.Tab.0.right" timestamp="1606676014730">
+    <state width="1865" height="168" key="GridCell.Tab.0.left/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606698316490" />
+    <state width="1865" height="168" key="GridCell.Tab.0.right" timestamp="1606698316491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="106" key="GridCell.Tab.0.right/0.0.1366.768/-1280.-255.1280.1024@-1280.-255.1280.1024" timestamp="1606588316558" />
@@ -152,7 +175,7 @@
     <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1366.768/-1280.-256.1280.1024@-1280.-256.1280.1024" timestamp="1604541284693" />
     <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.768/-1280.-256.1280.1024@0.0.1366.768" timestamp="1604543481925" />
     <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604873095762" />
-    <state width="1865" height="347" key="GridCell.Tab.0.right/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606676014730" />
+    <state width="1865" height="168" key="GridCell.Tab.0.right/11.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606698316491" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1606594930192">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

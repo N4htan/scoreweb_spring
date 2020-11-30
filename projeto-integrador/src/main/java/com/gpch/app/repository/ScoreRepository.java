@@ -6,8 +6,4 @@ import org.springframework.stereotype.Repository;
 import com.gpch.app.model.User;
 
 @Repository
-public interface ScoreRepository extends JpaRepository <User, Long>{
-	
-	
-
-}
+public interface ScoreRepository extends JpaRepository <User, Long>{}

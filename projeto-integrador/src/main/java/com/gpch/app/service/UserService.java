@@ -1,5 +1,6 @@
 package com.gpch.app.service;
 
+import com.gpch.app.model.Reward;
 import com.gpch.app.model.Role;
 import com.gpch.app.model.User;
 import com.gpch.app.repository.RoleRepository;
@@ -42,5 +43,4 @@ public class UserService {
         user.setRoles(new HashSet<Role>(Arrays.asList(userRole)));
         return userRepository.save(user);
     }
-
 }
