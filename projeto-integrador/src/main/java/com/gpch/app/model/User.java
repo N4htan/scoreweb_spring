@@ -53,13 +53,20 @@ public class User {
     @Column(name = "pontos")
     private int pontos;
 
+    @Column(name = "score")
+    private int score;
+
     @ManyToMany(cascade = CascadeType.MERGE)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
-    @OneToOne(cascade = CascadeType.ALL, fetch= FetchType.EAGER)
-    @JoinTable(name = "score_id")
-    private Score score_id;
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
 
     public Long getId() {
         return id;
@@ -133,11 +140,4 @@ public class User {
         this.roles = roles;
     }
 
-    public Score getScore_id() {
-        return score_id;
-    }
-
-    public void setScore_id(Score score_id) {
-        this.score_id = score_id;
-    }
 }

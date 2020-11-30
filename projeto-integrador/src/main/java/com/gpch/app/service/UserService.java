@@ -48,8 +48,8 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public  User updateUser(User user){
-        user.setPontos(user.getPontos()-180);
+    public  User updateUser(User user,int custo){
+        user.setPontos(user.getPontos()-custo);
         return  userRepository.save(user);
     }
 
