@@ -26,6 +26,9 @@ public class RewardController {
         Reward reward = rewardService.get(id);
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         User currentuser = userService.findUserByUserName(auth.getName());
+        mav.addObject("userName", "Bem vindo! " + currentuser.getName() + " " + currentuser.getLastName() + " (" + currentuser.getEmail() + ")");
+        mav.addObject("userScore", "Score: " + currentuser.getScore());
+        mav.addObject("userPontos", "Pontos: " + currentuser.getPontos());
 
         userService.updateUser(currentuser,reward.getCusto());
 
