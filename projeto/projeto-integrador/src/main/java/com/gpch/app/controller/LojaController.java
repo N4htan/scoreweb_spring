@@ -48,5 +48,18 @@ public class LojaController {
 
         return modelAndView;
     }
+    
+    @GetMapping(value="/admin/email")
+    public ModelAndView email(){
+        ModelAndView modelAndView = new ModelAndView();
+          
+        modelAndView.setViewName("admin/email");
+
+        Iterable<Reward> rewards = rewardService.listAll();
+        modelAndView.addObject("email",rewards);
+
+        return modelAndView;
+    }
+
 
 }
