@@ -24,7 +24,7 @@
 |  18-10 |   1    |[Video](https://www.youtube.com/watch?v=hSxAHHQWt9Q&feature=youtu.be)              |
 |  08-11 |   2    |[Video](https://www.youtube.com/watch?v=6RoibaiDX_k&feature=youtu.be)              |
 |  29-11 |   3    |[Video](https://youtu.be/us_hd_7H2kc)     |
-|  30-11 |   -    |Semana de apresentação para o cliente|
+|  14-12 |   4    |[Video](https://youtu.be/pS3nGC5DPVQ)|
 
 
 
